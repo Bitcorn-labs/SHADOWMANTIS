@@ -1,5 +1,5 @@
 function executeScript() {
-    const ledgerCanisterId = 'iozql-7iaaa-aaaah-advvq-cai';
+    const ledgerCanisterId = '5xwlp-hiaaa-aaaag-qjqqa-cai';
     __experimentalAddIcrc1Token(ledgerCanisterId);
     console.log('Script executed with ledgerCanisterId:', ledgerCanisterId);
 }
