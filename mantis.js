@@ -1,5 +1,5 @@
 function executeScript() {
-    const ledgerCanisterId = ''; 
+    const ledgerCanisterId = 'SHADOWMANTIS';
     __experimentalAddIcrc1Token(ledgerCanisterId);
-    console.log('Script executed with ledgerCanisterId:', ledgerCanisterId, 'and indexCanisterId:', indexCanisterId);
-}	
+    console.log('Script executed with ledgerCanisterId:', ledgerCanisterId);
+}
